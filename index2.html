@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Santo Aules</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #1c1b29;
+      color: white;
+    }
+
+    header {
+      background: #6a0dad;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #292742;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card {
+      background: #322f50;
+      margin: 20px auto;
+      padding: 15px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    input, button {
+      padding: 10px;
+      margin: 5px;
+      width: 90%;
+      border-radius: 5px;
+      border: none;
+    }
+
+    button {
+      background: #6a0dad;
+      color: white;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #292742;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Santo Aules</h1>
+    <p>Tu espacio para aprender, jugar y comunicar</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#aprender">Aprender</a>
+    <a href="#chatbot">Chatbot</a>
+    <a href="#juegos">Juegos</a>
+    <a href="#cuenta">Cuenta</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenido a Santo Aules</h2>
+    <p>Explora nuestras herramientas educativas y diviértete aprendiendo.</p>
+  </section>
+
+  <section id="aprender" class="card">
+    <h3>🎓 Zona de Aprendizaje</h3>
+    <p>Accede a clases, tutoriales y recursos educativos.</p>
+  </section>
+
+  <section id="chatbot" class="card">
+    <h3>🤖 Chatbot Educativo</h3>
+    <p>Haz preguntas y obtén respuestas rápidas de nuestro asistente inteligente.</p>
+  </section>
+
+  <section id="juegos" class="card">
+    <h3>🎮 Juegos Interactivos</h3>
+    <p>Aprende mientras juegas con actividades divertidas.</p>
+  </section>
+
+  <section id="cuenta" class="card">
+    <h3>👤 Crear Cuenta / Iniciar Sesión</h3>
+    <form>
+      <input type="text" placeholder="Nombre de usuario" /><br />
+      <input type="email" placeholder="Correo electrónico" /><br />
+      <input type="password" placeholder="Contraseña" /><br />
+      <button type="button">Crear Cuenta</button><br />
+      <button type="button">Iniciar Sesión</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Santo Aules. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
